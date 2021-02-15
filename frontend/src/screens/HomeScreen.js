@@ -6,7 +6,7 @@ import Message from '../components/Message'
 import Loader from '../components/Loader'
 import { listProducts } from '../actions/productActions'
 
-export const HomeScreen = () => {
+const HomeScreen = () => {
   const dispatch = useDispatch()
 
   const productList = useSelector((state) => state.productList)
